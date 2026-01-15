@@ -15,6 +15,7 @@ svm_head.fit(X,y)
 w = svm_head.coef_[0]
 b = svm_head.intercept_[0]
 
+
 x_val = np.linspace(X[:,0].min()-1,X[:,0].max()-1,200)
 y_decision = -(w[0]*x_val+b)/w[1]
 
