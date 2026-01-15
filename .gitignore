@@ -1,0 +1,7 @@
+# Ignore folders
+venv/
+
+LAB-2/
+
+# Ignore specific files
+main.ipynb
